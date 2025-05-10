@@ -1,0 +1,484 @@
+{
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Hasil dari 2.345 + 1.789 adalah ....",
+      "pilihan": {
+        "A": "4.124",
+        "B": "4.134",
+        "C": "4.224",
+        "D": "4.234"
+      },
+      "jawaban": "B",
+      "pembahasan": "Penjumlahan 2.345 + 1.789 = 4.134."
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Hasil dari 5.670 - 2.345 adalah ....",
+      "pilihan": {
+        "A": "3.225",
+        "B": "3.325",
+        "C": "3.425",
+        "D": "3.525"
+      },
+      "jawaban": "B",
+      "pembahasan": "Pengurangan 5.670 - 2.345 = 3.325."
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Hasil dari 15 × 12 adalah ....",
+      "pilihan": {
+        "A": "160",
+        "B": "170",
+        "C": "180",
+        "D": "190"
+      },
+      "jawaban": "C",
+      "pembahasan": "Perkalian 15 × 12 = 180."
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Hasil dari 144 ÷ 12 adalah ....",
+      "pilihan": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "13"
+      },
+      "jawaban": "C",
+      "pembahasan": "Pembagian 144 ÷ 12 = 12."
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Faktor persekutuan terbesar (FPB) dari 24 dan 36 adalah ....",
+      "pilihan": {
+        "A": "6",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "jawaban": "B",
+      "pembahasan": "Faktor 24: 1, 2, 3, 4, 6, 8, 12, 24. Faktor 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. FPB = 12."
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Kelipatan persekutuan terkecil (KPK) dari 8 dan 12 adalah ....",
+      "pilihan": {
+        "A": "12",
+        "B": "24",
+        "C": "36",
+        "D": "48"
+      },
+      "jawaban": "B",
+      "pembahasan": "Kelipatan 8: 8, 16, 24, 32, ... Kelipatan 12: 12, 24, 36, ... KPK = 24."
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Hasil dari 3/4 + 1/2 adalah ....",
+      "pilihan": {
+        "A": "1/4",
+        "B": "3/4",
+        "C": "5/4",
+        "D": "7/4"
+      },
+      "jawaban": "C",
+      "pembahasan": "3/4 + 1/2 = 3/4 + 2/4 = 5/4."
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Hasil dari 5/6 - 1/3 adalah ....",
+      "pilihan": {
+        "A": "1/6",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "2/3"
+      },
+      "jawaban": "C",
+      "pembahasan": "5/6 - 1/3 = 5/6 - 2/6 = 3/6 = 1/2."
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Hasil dari 2/3 × 3/4 adalah ....",
+      "pilihan": {
+        "A": "1/6",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "2/3"
+      },
+      "jawaban": "C",
+      "pembahasan": "2/3 × 3/4 = 6/12 = 1/2."
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Hasil dari 3/5 ÷ 2/3 adalah ....",
+      "pilihan": {
+        "A": "2/5",
+        "B": "3/5",
+        "C": "9/10",
+        "D": "10/9"
+      },
+      "jawaban": "C",
+      "pembahasan": "3/5 ÷ 2/3 = 3/5 × 3/2 = 9/10."
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Bilangan 0,75 jika ditulis dalam bentuk pecahan adalah ....",
+      "pilihan": {
+        "A": "3/4",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "4/5"
+      },
+      "jawaban": "A",
+      "pembahasan": "0,75 = 75/100 = 3/4."
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Hasil dari 0,6 × 0,4 adalah ....",
+      "pilihan": {
+        "A": "0,24",
+        "B": "0,28",
+        "C": "0,32",
+        "D": "0,36"
+      },
+      "jawaban": "A",
+      "pembahasan": "0,6 × 0,4 = 0,24."
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Luas persegi dengan sisi 8 cm adalah ....",
+      "pilihan": {
+        "A": "16 cm²",
+        "B": "32 cm²",
+        "C": "64 cm²",
+        "D": "128 cm²"
+      },
+      "jawaban": "C",
+      "pembahasan": "Luas persegi = sisi × sisi = 8 × 8 = 64 cm²."
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Keliling persegi panjang dengan panjang 12 cm dan lebar 5 cm adalah ....",
+      "pilihan": {
+        "A": "24 cm",
+        "B": "34 cm",
+        "C": "44 cm",
+        "D": "54 cm"
+      },
+      "jawaban": "B",
+      "pembahasan": "Keliling = 2 × (panjang + lebar) = 2 × (12 + 5) = 34 cm."
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Luas segitiga dengan alas 10 cm dan tinggi 6 cm adalah ....",
+      "pilihan": {
+        "A": "20 cm²",
+        "B": "30 cm²",
+        "C": "40 cm²",
+        "D": "60 cm²"
+      },
+      "jawaban": "B",
+      "pembahasan": "Luas segitiga = 1/2 × alas × tinggi = 1/2 × 10 × 6 = 30 cm²."
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Volume kubus dengan sisi 4 cm adalah ....",
+      "pilihan": {
+        "A": "16 cm³",
+        "B": "32 cm³",
+        "C": "64 cm³",
+        "D": "128 cm³"
+      },
+      "jawaban": "C",
+      "pembahasan": "Volume kubus = sisi × sisi × sisi = 4 × 4 × 4 = 64 cm³."
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Volume balok dengan panjang 8 cm, lebar 5 cm, dan tinggi 3 cm adalah ....",
+      "pilihan": {
+        "A": "60 cm³",
+        "B": "80 cm³",
+        "C": "120 cm³",
+        "D": "150 cm³"
+      },
+      "jawaban": "C",
+      "pembahasan": "Volume balok = panjang × lebar × tinggi = 8 × 5 × 3 = 120 cm³."
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Seorang pedagang membeli 5 kg apel seharga Rp100.000. Jika ia menjual 1 kg apel seharga Rp25.000, maka keuntungannya adalah ....",
+      "pilihan": {
+        "A": "Rp25.000",
+        "B": "Rp50.000",
+        "C": "Rp75.000",
+        "D": "Rp100.000"
+      },
+      "jawaban": "A",
+      "pembahasan": "Harga jual = 5 × Rp25.000 = Rp125.000. Keuntungan = Rp125.000 - Rp100.000 = Rp25.000."
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Harga sebuah buku setelah diskon 20% adalah Rp80.000. Harga sebelum diskon adalah ....",
+      "pilihan": {
+        "A": "Rp96.000",
+        "B": "Rp100.000",
+        "C": "Rp104.000",
+        "D": "Rp108.000"
+      },
+      "jawaban": "B",
+      "pembahasan": "Harga setelah diskon = 80% × harga awal. Rp80.000 = 0,8 × harga awal. Harga awal = Rp80.000 ÷ 0,8 = Rp100.000."
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Rata-rata nilai ulangan 5 siswa adalah 80. Jika nilai seorang siswa adalah 90, rata-rata nilai 4 siswa lainnya adalah ....",
+      "pilihan": {
+        "A": "75",
+        "B": "77,5",
+        "C": "80",
+        "D": "82,5"
+      },
+      "jawaban": "B",
+      "pembahasan": "Total nilai = 5 × 80 = 400. Total nilai 4 siswa = 400 - 90 = 310. Rata-rata = 310 ÷ 4 = 77,5."
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Jarak dua kota adalah 240 km. Jika ditempuh dengan kecepatan 60 km/jam, waktu yang diperlukan adalah ....",
+      "pilihan": {
+        "A": "3 jam",
+        "B": "4 jam",
+        "C": "5 jam",
+        "D": "6 jam"
+      },
+      "jawaban": "B",
+      "pembahasan": "Waktu = jarak ÷ kecepatan = 240 ÷ 60 = 4 jam."
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Seorang pelari menempuh jarak 400 meter dalam waktu 80 detik. Kecepatannya adalah ....",
+      "pilihan": {
+        "A": "4 m/s",
+        "B": "5 m/s",
+        "C": "6 m/s",
+        "D": "8 m/s"
+      },
+      "jawaban": "B",
+      "pembahasan": "Kecepatan = jarak ÷ waktu = 400 ÷ 80 = 5 m/s."
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Hasil dari (-5) + 8 adalah ....",
+      "pilihan": {
+        "A": "-3",
+        "B": "3",
+        "C": "-13",
+        "D": "13"
+      },
+      "jawaban": "B",
+      "pembahasan": "(-5) + 8 = 3."
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Hasil dari (-6) × (-4) adalah ....",
+      "pilihan": {
+        "A": "-24",
+        "B": "24",
+        "C": "-10",
+        "D": "10"
+      },
+      "jawaban": "B",
+      "pembahasan": "(-6) × (-4) = 24."
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Hasil dari (-15) ÷ 3 adalah ....",
+      "pilihan": {
+        "A": "-5",
+        "B": "5",
+        "C": "-45",
+        "D": "45"
+      },
+      "jawaban": "A",
+      "pembahasan": "(-15) ÷ 3 = -5."
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Bilangan prima antara 20 dan 30 adalah ....",
+      "pilihan": {
+        "A": "21, 23, 27",
+        "B": "23, 29",
+        "C": "22, 24, 26",
+        "D": "25, 27, 29"
+      },
+      "jawaban": "B",
+      "pembahasan": "Bilangan prima antara 20 dan 30 adalah 23 dan 29."
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Faktor dari 36 adalah ....",
+      "pilihan": {
+        "A": "1, 2, 3, 4, 6, 9, 12, 18, 36",
+        "B": "1, 2, 3, 6, 12, 18",
+        "C": "1, 3, 6, 9, 12",
+        "D": "1, 2, 4, 6, 9"
+      },
+      "jawaban": "A",
+      "pembahasan": "Faktor 36 adalah 1, 2, 3, 4, 6, 9, 12, 18, 36."
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Kelipatan dari 7 antara 20 dan 40 adalah ....",
+      "pilihan": {
+        "A": "21, 28, 35",
+        "B": "14, 21, 28",
+        "C": "28, 35, 42",
+        "D": "21, 28, 42"
+      },
+      "jawaban": "A",
+      "pembahasan": "Kelipatan 7 adalah 7, 14, 21, 28, 35, 42. Antara 20 dan 40 adalah 21, 28, 35."
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Hasil dari 2³ + 3² adalah ....",
+      "pilihan": {
+        "A": "13",
+        "B": "15",
+        "C": "17",
+        "D": "19"
+      },
+      "jawaban": "C",
+      "pembahasan": "2³ = 8, 3² = 9. 8 + 9 = 17."
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Akar dari 64 adalah ....",
+      "pilihan": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "jawaban": "C",
+      "pembahasan": "Akar dari 64 adalah 8, karena 8 × 8 = 64."
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Luas lingkaran dengan jari-jari 7 cm adalah .... (π = 22/7)",
+      "pilihan": {
+        "A": "154 cm²",
+        "B": "144 cm²",
+        "C": "134 cm²",
+        "D": "124 cm²"
+      },
+      "jawaban": "A",
+      "pembahasan": "Luas lingkaran = π × r² = 22/7 × 7 × 7 = 154 cm²."
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Keliling lingkaran dengan diameter 14 cm adalah .... (π = 22/7)",
+      "pilihan": {
+        "A": "44 cm",
+        "B": "48 cm",
+        "C": "52 cm",
+        "D": "56 cm"
+      },
+      "jawaban": "A",
+      "pembahasan": "Keliling lingkaran = π × d = 22/7 × 14 = 44 cm."
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Sebuah tangki berisi 120 liter air. Jika 1/3 bagian air digunakan, sisa air adalah ....",
+      "pilihan": {
+        "A": "40 liter",
+        "B": "60 liter",
+        "C": "80 liter",
+        "D": "100 liter"
+      },
+      "jawaban": "C",
+      "pembahasan": "Air yang digunakan = 1/3 × 120 = 40 liter. Sisa air = 120 - 40 = 80 liter."
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Seorang siswa membaca 3/5 dari 200 halaman buku. Jumlah halaman yang sudah dibaca adalah ....",
+      "pilihan": {
+        "A": "100 halaman",
+        "B": "120 halaman",
+        "C": "140 halaman",
+        "D": "160 halaman"
+      },
+      "jawaban": "B",
+      "pembahasan": "Halaman yang dibaca = 3/5 × 200 = 120 halaman."
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Sebuah toko memberikan diskon 15% untuk sebuah baju seharga Rp200.000. Harga setelah diskon adalah ....",
+      "pilihan": {
+        "A": "Rp160.000",
+        "B": "Rp170.000",
+        "C": "Rp180.000",
+        "D": "Rp190.000"
+      },
+      "jawaban": "B",
+      "pembahasan": "Diskon = 15% × Rp200.000 = Rp30.000. Harga setelah diskon = Rp200.000 - Rp30.000 = Rp170.000."
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Seorang petani memanen 240 kg padi. Jika 25% dijual, jumlah padi yang dijual adalah ....",
+      "pilihan": {
+        "A": "40 kg",
+        "B": "50 kg",
+        "C": "60 kg",
+        "D": "70 kg"
+      },
+      "jawaban": "C",
+      "pembahasan": "Padi yang dijual = 25% × 240 = 0,25 × 240 = 60 kg."
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Kecepatan rata-rata mobil adalah ....",
+      "pilihan": {
+        "A": "50 km/jam",
+        "B": "60 km/jam",
+        "C": "70 km/jam",
+        "D": "80 km/jam"
+      },
+      "jawaban": "B",
+      "pembahasan": "Kecepatan = jarak ÷ waktu = 180 ÷ 3 = 60 km/jam."
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Hasil dari 2,5 + 1,75 adalah ....",
+      "pilihan": {
+        "A": "3,25",
+        "B": "4,25",
+        "C": "4,75",
+        "D": "5,25"
+      },
+      "jawaban": "B",
+      "pembahasan": "2,5 + 1,75 = 4,25."
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Sebuah persegi panjang memiliki panjang 15 cm dan lebar 8 cm. Luasnya adalah ....",
+      "pilihan": {
+        "A": "94 cm²",
+        "B": "104 cm²",
+        "C": "114 cm²",
+        "D": "120 cm²"
+      },
+      "jawaban": "D",
+      "pembahasan": "Luas = panjang × lebar = 15 × 8 = 120 cm²."
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Seorang pedagang membeli 10 lusin pensil seharga Rp120.000. Harga 1 lusin pensil adalah ....",
+      "pilihan": {
+        "A": "Rp10.000",
+        "B": "Rp12.000",
+        "C": "Rp14.000",
+        "D": "Rp16.000"
+      },
+      "jawaban": "B",
+      "pembahasan": "Harga 1 lusin = Rp120.000 ÷ 10 = Rp12.000."
+    }
+  ]
+}

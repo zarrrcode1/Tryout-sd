@@ -1,0 +1,484 @@
+{
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Peristiwa dalam cerita bersifat imajinatif, yang artinya ....",
+      "pilihan": {
+        "A": "bersifat khayalan",
+        "B": "benar-benar terjadi",
+        "C": "berdasarkan pengalaman",
+        "D": "sesuai realitas sehari-hari"
+      },
+      "jawaban": "A",
+      "pembahasan": "Imajinatif berarti bersifat khayalan atau tidak nyata, sehingga jawaban yang tepat adalah A."
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Penggunaan tanda baca yang salah pada dialog di atas adalah ....",
+      "pilihan": {
+        "A": "tanda titik (.)",
+        "B": "tanda Tanya (?)",
+        "C": "tanda seru (!)",
+        "D": "tanda koma (,)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Pada dialog 'Belum mas.', seharusnya menggunakan tanda koma (,) karena merupakan tanggapan langsung, bukan akhir kalimat. Jadi jawaban yang tepat adalah A."
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Penggunaan ejaan yang salah pada kalimat tersebut adalah ….",
+      "pilihan": {
+        "A": "badai",
+        "B": "lebat",
+        "C": "listerik",
+        "D": "padam"
+      },
+      "jawaban": "C",
+      "pembahasan": "Kata 'listerik' seharusnya dieja 'listrik'. Jadi jawaban yang tepat adalah C."
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Maksud syair tersebut adalah ...",
+      "pilihan": {
+        "A": "kita tidak boleh berbohong kepada siapa pun agar hidup selalu bahagia",
+        "B": "kita tidak boleh menyia-nyiakan orangtua agar hidup selalu bahagia",
+        "C": "kita harus rukun kepada teman dan orang tua agar hidup selalu bahagia",
+        "D": "kita tidak boleh bertengkar dengan teman agar hidup bahagia"
+      },
+      "jawaban": "A",
+      "pembahasan": "Syair tersebut mengajarkan untuk tidak berdusta kepada siapa pun, termasuk teman dan orang tua, agar hidup bahagia. Jadi jawaban yang tepat adalah A."
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Ide pokok yang terdapat dalam paragraf di atas adalah...",
+      "pilihan": {
+        "A": "Mahalnya kesehatan menjadikan setiap orang berupaya keras untuk menjaganya.",
+        "B": "Menjaga kesehatan harus diupayakan manusia.",
+        "C": "Orang baru sadar mahalnya kesehatan ketika merasakan sakit.",
+        "D": "Kesehatan yang prima selalu didambakan setiap orang."
+      },
+      "jawaban": "D",
+      "pembahasan": "Ide pokok paragraf tersebut adalah tentang pentingnya kesehatan yang prima yang didambakan setiap orang. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Kalimat yang diucapkan Lusi adalah ....",
+      "pilihan": {
+        "A": "Berapa lama kamu pergi ke Garut ?",
+        "B": "Apa tujuanmu pergi ke Garut ?",
+        "C": "Kapan kamu pergi ke Garut ?",
+        "D": "Dengan apa kamu berangkat ke Garut ?"
+      },
+      "jawaban": "B",
+      "pembahasan": "Jawaban Nova 'Aku ke Garut untuk berekreasi' merupakan jawaban dari pertanyaan tentang tujuan. Jadi pertanyaan Lusi adalah 'Apa tujuanmu pergi ke Garut?' Jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Puisi tersebut melukiskan waktu ....",
+      "pilihan": {
+        "A": "pagi hari",
+        "B": "siang hari",
+        "C": "sore hari",
+        "D": "malam hari"
+      },
+      "jawaban": "C",
+      "pembahasan": "Kata 'sang surya mulai tenggelam' menunjukkan waktu sore hari. Jadi jawaban yang tepat adalah C."
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Sinonim kata cermat adalah ….",
+      "pilihan": {
+        "A": "awas",
+        "B": "teliti",
+        "C": "tepat",
+        "D": "hemat"
+      },
+      "jawaban": "B",
+      "pembahasan": "Sinonim dari 'cermat' adalah 'teliti'. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Gagasan pokok teks laporan tersebut adalah ....",
+      "pilihan": {
+        "A": "perbedaan ciri fisik ayam jantan dan ayam betina",
+        "B": "ciri fisik ayam jantan",
+        "C": "manfaat ayam bagi kehidupan manusia",
+        "D": "kandungan daging dan telur ayam"
+      },
+      "jawaban": "C",
+      "pembahasan": "Teks tersebut membahas berbagai manfaat ayam bagi manusia, mulai dari daging, telur, hingga bulunya. Jadi gagasan pokoknya adalah C."
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Kalimat tanya yang sesuai dengan isi paragraf adalah …",
+      "pilihan": {
+        "A": "Siapa yang melakukan penculikan terhadap Soekarno dan Moh.Hatta?",
+        "B": "Kapan teks proklamasi dibacakan di depan rakyat Indonesia",
+        "C": "Mengapa sejumlah pemuda melakukan penculikan kepada Soekarno dan Moh.Hatta?",
+        "D": "Dimana peristiwa rengasdengklok terjadi?"
+      },
+      "jawaban": "A",
+      "pembahasan": "Paragraf tersebut menyebutkan nama-nama pelaku penculikan (Soekarni, Wikana, Aidit, dan Chaerul Saleh), sehingga pertanyaan 'Siapa yang melakukan penculikan?' adalah yang paling sesuai. Jawaban tepat adalah A."
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Makna kata bergaris bawah dalam paragraf tersebut adalah ….",
+      "pilihan": {
+        "A": "Perintah",
+        "B": "Pelajaran",
+        "C": "Petunjuk",
+        "D": "Peraturan"
+      },
+      "jawaban": "A",
+      "pembahasan": "Kata 'instruksi' dalam konteks ini bermakna perintah dari guru kepada siswa. Jadi jawaban yang tepat adalah A."
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Urutan petunjuk pembuatan kopi yang benar adalah … .",
+      "pilihan": {
+        "A": "1 – 2 – 3 – 4",
+        "B": "2 – 1 – 3 – 4",
+        "C": "3 – 4 – 2 – 1",
+        "D": "4 – 1 – 3 – 2"
+      },
+      "jawaban": "D",
+      "pembahasan": "Urutan yang benar adalah: Ambil cangkir bersih (4), Isi dengan kopi dan gula (1), Tuangkan air panas (3), Aduk sampai tercampur (2). Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Makna sutradara pada paragraf tersebut adalah",
+      "pilihan": {
+        "A": "pengatur pementasan",
+        "B": "pemeran utama",
+        "C": "penulis naskah",
+        "D": "penata panggung"
+      },
+      "jawaban": "A",
+      "pembahasan": "Sutradara adalah orang yang mengatur dan mengendalikan pementasan drama. Jadi jawaban yang tepat adalah A."
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Antonim kata keruh dalam kalimat tersebut adalah",
+      "pilihan": {
+        "A": "suci",
+        "B": "bersih",
+        "C": "putih",
+        "D": "jernih"
+      },
+      "jawaban": "D",
+      "pembahasan": "Antonim dari 'keruh' adalah 'jernih'. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Ide pokok paragraf tersebut adalah....",
+      "pilihan": {
+        "A": "suasana musim panen padi",
+        "B": "gotong royong musim panen",
+        "C": "kegiatan membantu masyarakat",
+        "D": "penyediaan makanan dan minuman"
+      },
+      "jawaban": "B",
+      "pembahasan": "Paragraf tersebut membahas tentang kegiatan gotong royong pada musim panen padi. Jadi ide pokoknya adalah B."
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Usaha yang dilakukan Gilang adalah....",
+      "pilihan": {
+        "A": "menabung semua uang yang diberikan ayah dan pamannya",
+        "B": "menyisihkan uang jajan dan membantu pamannya berjualan kue",
+        "C": "tidak menggunakan uang yang diberikan ayahnya untuk jajan",
+        "D": "setiap hari, membantu pamannya berjualan kue sepulang sekolah"
+      },
+      "jawaban": "B",
+      "pembahasan": "Gilang melakukan dua usaha: menyisihkan uang jajan dan membantu pamannya berjualan kue. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Latar waktu cerita adalah .... hari.",
+      "pilihan": {
+        "A": "pagi",
+        "B": "siang",
+        "C": "sore",
+        "D": "malam"
+      },
+      "jawaban": "D",
+      "pembahasan": "Kata 'Setelah matahari terbenam' dan 'Sesaat kemudian...tidur' menunjukkan latar waktu malam hari. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Watak tokoh Gora pada cerita tersebut adalah ....",
+      "pilihan": {
+        "A": "dengki",
+        "B": "pongah",
+        "C": "congkak",
+        "D": "ceroboh"
+      },
+      "jawaban": "D",
+      "pembahasan": "Gora digambarkan ceroboh karena langsung tidur dalam keadaan kotor dan salah mengambil minyak. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Amanat cerita tersebut adalah ....",
+      "pilihan": {
+        "A": "Kita harus mematuhi nasihat orang lain.",
+        "B": "KIta harus hemat energi saat keadaan memaksa.",
+        "C": "Semua anggota keluarga harus saling menghormati.",
+        "D": "Sesama anggota keluarga harus hidup rukun dan damai."
+      },
+      "jawaban": "A",
+      "pembahasan": "Cerita tersebut mengajarkan pentingnya mematuhi nasihat orang lain untuk menghindari masalah. Jadi amanat yang tepat adalah A."
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "informasi penting didalam cuplikan tersebut adalah . . . . .",
+      "pilihan": {
+        "A": "sampah organik (basah) sampah anorganik (kering) palstik, kaca, makanan",
+        "B": "setiap hari kita membuang sampah sampah basah dan sampah kering selalu membawa masalah plastik, kaca,dan makanan",
+        "C": "sampah mudah membususk sampah sulit membusuk setiap hari kita membuang sampah",
+        "D": "sampah ada dua jenis yaitu organik dan anorganik sampah organik mudah membususk sampah anorganik sukar membususk"
+      },
+      "jawaban": "D",
+      "pembahasan": "Informasi penting dalam cuplikan tersebut adalah pembagian sampah menjadi organik dan anorganik beserta sifat masing-masing. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Hal yang menarik dari diri Gus Dur dalam kutipan biografi tersebut adalah …..",
+      "pilihan": {
+        "A": "Sifatnya yang sangat terkenal yaitu suka membuat sesuatu yang lucu.",
+        "B": "Tidak pernah menindas, pendiri Nahdlatul Ulama (NU), serta menjadi guru.",
+        "C": "Ide-ide dan pemikirannya berkembang untuk mengabdikan hidupnya pada rakyat.",
+        "D": "Seorang tokoh pewayangan yang penuh humor dan tidak mebeda-bedakan derajat."
+      },
+      "jawaban": "C",
+      "pembahasan": "Hal yang menarik dari Gus Dur dalam kutipan tersebut adalah ide-ide dan pemikirannya yang berkembang untuk mengabdikan hidupnya pada rakyat. Jadi jawaban yang tepat adalah C."
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Pesan yang terkandung dalam pantun tersebut adalah...",
+      "pilihan": {
+        "A": "Setelah mendaki, kita akan turun gunung.",
+        "B": "Melihat taman saat mendaki gunung.",
+        "C": "Jika berbuat baik, kita akan mendapatkan keberkahan.",
+        "D": "Senang memberi barang kepada orang lain merupakan perbuatan baik."
+      },
+      "jawaban": "C",
+      "pembahasan": "Pesan pantun tersebut adalah tentang manfaat berbuat baik yang akan mendatangkan keberkahan. Jadi jawaban yang tepat adalah C."
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Perbaikan penggunaan tanda baca yang tepat untuk kalimat tersebut adalah...",
+      "pilihan": {
+        "A": "Aduh. Jempol kakiku terinjak\"\" teriak Tigor.\"",
+        "B": "Aduh,\"jempol kakiku terinjak!\" teriak Tigor.",
+        "C": "Aduh, jempol kakiku terinjak! teriak Tigor.",
+        "D": "Aduh jempol kakiku terinjak! teriak Tigor."
+      },
+      "jawaban": "C",
+      "pembahasan": "Penggunaan tanda baca yang tepat adalah: koma setelah 'Aduh', tanda seru setelah 'terinjak', dan titik di akhir kalimat. Jadi jawaban yang tepat adalah C."
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Gagasan utama teks di atas adalah ...",
+      "pilihan": {
+        "A": "kesibukan para pedagang buah menurunkan keranjang-keranjang.",
+        "B": "kesibukan para pedagang kaus dan sepatu menurunkan barang.",
+        "C": "kesibukan para kuli panggul berebut mengangkut barang.",
+        "D": "kesibukan di stasiun kereta api Beos pada waktu pagi."
+      },
+      "jawaban": "D",
+      "pembahasan": "Gagasan utama teks tersebut adalah kesibukan di stasiun kereta api Beos pada pagi hari. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Gagasan utama paragraf di atas adalah ...",
+      "pilihan": {
+        "A": "budi daya kelautan perlu diajarkan sejak dini.",
+        "B": "hasil laut merupakan komoditas ekspor.",
+        "C": "laut dan isinya perlu diadakan pembangunan.",
+        "D": "laut merupakan sahabat manusia"
+      },
+      "jawaban": "D",
+      "pembahasan": "Gagasan utama paragraf tersebut adalah bahwa laut merupakan sahabat manusia yang perlu dijaga dan dikelola. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Ide pokok bacaan di atas adalah ... .",
+      "pilihan": {
+        "A": "membuang sampah sembarangan",
+        "B": "dampak membuang sampah sembarangan",
+        "C": "dampak membuang sampah plastik secara sembarangan",
+        "D": "sampah plastik tidak dapat didaur ulang oleh alam"
+      },
+      "jawaban": "C",
+      "pembahasan": "Ide pokok bacaan tersebut adalah dampak negatif membuang sampah plastik sembarangan. Jadi jawaban yang tepat adalah C."
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Kalimat utama pada teks tersebut terdapat pada nomor ...",
+      "pilihan": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "jawaban": "A",
+      "pembahasan": "Kalimat utama terdapat pada kalimat pertama yang menyatakan bahwa sirsak adalah tanaman obat terbaik. Jadi jawaban yang tepat adalah A."
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Topik utama paragraf tersebut adalah ...",
+      "pilihan": {
+        "A": "Remaja perlu memiliki sikap toleransi terhadapp sesama manusia",
+        "B": "Pendidikan karakter membentuk remaja yang berprestasi",
+        "C": "Pendidikan karakter sangat penting bagi remaja",
+        "D": "Remaja perlu memiliki sikap pengasih/ membantu sesama."
+      },
+      "jawaban": "C",
+      "pembahasan": "Topik utama paragraf tersebut adalah pentingnya pendidikan karakter bagi remaja. Jadi jawaban yang tepat adalah C."
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Syarat sebuah laporan pengamatan yang baik adalah berikut ini, kecuali...",
+      "pilihan": {
+        "A": "Urut, rapi, dan menarik",
+        "B": "Berisi tentang penjelasan hasil telaah buku",
+        "C": "Tata bahasa dan ejaan benar",
+        "D": "Isi sesuai hasil pemgamatan"
+      },
+      "jawaban": "B",
+      "pembahasan": "Laporan pengamatan harus berdasarkan pengamatan langsung, bukan telaah buku. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Kesalahan penggunaan kata dalam kalimat di atas ialah …",
+      "pilihan": {
+        "A": "Kerasnya, seharusnya sekerasnya",
+        "B": "Menjuangkan, seharusnya memperjuangkan",
+        "C": "Akhirnya, seharusnya akhiri",
+        "D": "Membuahkan, seharusnya membuahi"
+      },
+      "jawaban": "B",
+      "pembahasan": "Kata 'menjuangkan' tidak baku, seharusnya 'memperjuangkan'. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Informasi penting dari paragraf tersebut adalah ….",
+      "pilihan": {
+        "A": "subsidi listrik yang harus disediakan negara membengkak",
+        "B": "perilaku boros dalam mengonsumsi listrik harus diakhiri",
+        "C": "pemborosan termasuk perilaku tidak terpuji",
+        "D": "harga energi dipasar global melonjak"
+      },
+      "jawaban": "B",
+      "pembahasan": "Informasi penting dalam paragraf tersebut adalah ajakan untuk mengakhiri perilaku boros dalam mengonsumsi listrik. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Di bawah ini yang merupakan kelompok kata baku adalah ....",
+      "pilihan": {
+        "A": "Ijasah, izin, karir",
+        "B": "Ijazah, karier, sistem",
+        "C": "Aktiv, izin, apotek",
+        "D": "Nasihat, analisis, apotik"
+      },
+      "jawaban": "B",
+      "pembahasan": "Kata-kata baku adalah ijazah, karier, dan sistem. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Kalimat berikut yang menggunakan kata baku adalah ...",
+      "pilihan": {
+        "A": "Saya sudah bilang sama dia",
+        "B": "Orang yang mana berbaju merah iu abangku",
+        "C": "Kami semua sudah hadir",
+        "D": "Penggarismu ada pada saya"
+      },
+      "jawaban": "C",
+      "pembahasan": "Kalimat 'Kami semua sudah hadir' menggunakan kata-kata baku. Jadi jawaban yang tepat adalah C."
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Simpulan paragraf di atas adalah ...",
+      "pilihan": {
+        "A": "Suasana Taman Tirta sangat menyenangkan",
+        "B": "Sampah-sampah berserakan di Taman Tirta karena minimnya tempat sampah",
+        "C": "Taman Tirta adalah tempat rekreasi yang sangat menyenangkan walaupun banyak sampah",
+        "D": "Tempat sampah di Taman Tirta sangat sedikit sehingga membuat tidak nyaman"
+      },
+      "jawaban": "B",
+      "pembahasan": "Simpulan paragraf tersebut adalah tentang sampah yang berserakan akibat minimnya tempat sampah. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Simpulan paragraf tersebut yang tepat adalah ...",
+      "pilihan": {
+        "A": "Tidur yang cukup sebaiknya kurang dari 8 jam sehari.",
+        "B": "Tidur dengan waktu cukup dan berkualitas dapat melindungi diri dari penyakit.",
+        "C": "Tidur yang cukup dapat meningkatkan imunitas diri.",
+        "D": "Tidur yang cukup adalah tidur yang tidak bangun-bangun sepanjang malam"
+      },
+      "jawaban": "B",
+      "pembahasan": "Simpulan paragraf tersebut adalah tentang manfaat tidur cukup dan berkualitas untuk kesehatan dan imunitas. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Persamaan dari kedua teks di atas adalah….",
+      "pilihan": {
+        "A": "proses belajar mengajar di sekolah",
+        "B": "guru mencerdaskan kehidupan bangsa",
+        "C": "cara guru datang ke sekolah",
+        "D": "guru pahlawan tanpa tanda jasa"
+      },
+      "jawaban": "D",
+      "pembahasan": "Persamaan kedua teks adalah penyebutan guru sebagai pahlawan tanpa tanda jasa. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Maksud syair di atas adalah ...",
+      "pilihan": {
+        "A": "hutan adalah sumber oksigen bum",
+        "B": "hutan adalah organ paru-paru bumi",
+        "C": "banyak burung yang berkica di hutan",
+        "D": "bumi membutuhkan hutan untuk bernafas"
+      },
+      "jawaban": "A",
+      "pembahasan": "Maksud syair tersebut adalah hutan sebagai sumber oksigen (paru-paru bumi) yang perlu dijaga. Jadi jawaban yang tepat adalah A."
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Antonim kata dipanaskan dalam paragraf tersebut adalah...",
+      "pilihan": {
+        "A": "dicairkan",
+        "B": "dibekukan",
+        "C": "dileburkan",
+        "D": "didinginkan"
+      },
+      "jawaban": "D",
+      "pembahasan": "Antonim dari 'dipanaskan' adalah 'didinginkan'. Jadi jawaban yang tepat adalah D."
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Makna dari kata yang bercetak miring di atas adalah....",
+      "pilihan": {
+        "A": "Anak buah",
+        "B": "kepala penjahat",
+        "C": "pemimpin",
+        "D": "penanggungjawab"
+      },
+      "jawaban": "B",
+      "pembahasan": "Biang keladi berarti orang yang menjadi penyebab utama suatu masalah atau kepala penjahat. Jadi jawaban yang tepat adalah B."
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Hal yang akan terjadi jika Purbasari tidak memaafkan pengendara yang menabraknya adalah ….",
+      "pilihan": {
+        "A": "Purbasari akan merasa bersalah",
+        "B": "Pengendara akan berterima kasih.",
+        "C": "Pengendara akan merasa bersalah.",
+        "D": "Luka Purbasari akan semakin parah."
+      },
+      "jawaban": "C",
+      "pembahasan": "Jika tidak memaafkan, pengendara akan terus merasa bersalah atas perbuatannya. Jadi jawaban yang tepat adalah C."
+    }
+  ]
+}
