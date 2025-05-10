@@ -1,0 +1,485 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Ujian Kelas 6 - Edukasi Interaktif
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Custom scrollbar for better UX */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f3f4f6;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #3b82f6;
+      border-radius: 10px;
+      border: 2px solid #f3f4f6;
+    }
+  </style>
+ </head>
+ <body class="bg-gradient-to-b from-blue-50 to-white min-h-screen flex flex-col">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16 items-center">
+     <a class="flex items-center space-x-2" href="#">
+      <img alt="Logo buku dan pensil berwarna biru dan putih, melambangkan edukasi" class="w-10 h-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/a5c92292-c412-4a7a-6b67-2cef331c2b9f.jpg" width="40"/>
+      <span class="text-2xl font-semibold text-blue-700 select-none">
+       Ujian Kelas 6
+      </span>
+     </a>
+     <div class="hidden md:flex space-x-8 font-medium text-gray-700">
+      <a class="hover:text-blue-600 transition" href="#home">
+       Beranda
+      </a>
+     </div>
+     <button aria-label="Toggle menu" class="md:hidden text-blue-600 focus:outline-none" id="btn-menu">
+      <i class="fas fa-bars fa-lg">
+      </i>
+     </button>
+    </div>
+   </div>
+   <div class="hidden md:hidden bg-white px-4 pb-4 space-y-2 font-medium text-gray-700" id="mobile-menu">
+    <a class="block py-2 hover:text-blue-600 transition" href="#home">
+     Beranda
+    </a>
+    <a class="block py-2 hover:text-blue-600 transition" href="#kategori">
+     Kategori Soal
+    </a>
+    <a class="block py-2 hover:text-blue-600 transition" href="#mode">
+     Mode
+    </a>
+    <a class="block py-2 hover:text-blue-600 transition" href="#ranking">
+     Ranking
+    </a>
+    <a class="block py-2 hover:text-blue-600 transition" href="#sertifikat">
+     Sertifikat
+    </a>
+    <a class="block py-2 hover:text-blue-600 transition" href="#about">
+     Tentang
+    </a>
+   </div>
+  </nav>
+  <!-- Banner Interaktif -->
+  <header class="relative bg-gradient-to-r from-blue-400 to-blue-600 text-white flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-16 rounded-b-3xl shadow-lg mt-6" id="home">
+   <div class="md:w-1/2 space-y-6">
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-lg">
+     Selamat Datang di
+     <br/>
+     <span class="text-yellow-300">
+      Ujian Kelas 6
+     </span>
+    </h1>
+    <p class="text-lg md:text-xl font-medium drop-shadow-md">
+     Latihan soal interaktif untuk mempersiapkan ujian akhir sekolah dengan mudah dan menyenangkan.
+    </p>
+    <a class="inline-block bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-semibold px-6 py-3 rounded-lg shadow-lg transition" href="#kategori">
+     Mulai Latihan Sekarang
+     <i class="fas fa-arrow-right ml-2">
+     </i>
+    </a>
+   </div>
+   <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+    <img alt="Ilustrasi anak laki-laki dan perempuan sedang belajar di meja dengan alat tulis dan komputer, latar belakang cerah dan ramah anak" class="rounded-xl shadow-xl max-w-full h-auto" height="300" src="https://storage.googleapis.com/a1aa/image/f512c280-060c-4b2f-8101-5b8af3131bd5.jpg" width="400"/>
+   </div>
+  </header>
+  <!-- Kategori Soal -->
+  <section class="max-w-7xl mx-auto px-6 py-16" id="kategori">
+   <h2 class="text-3xl font-bold text-center text-blue-700 mb-12">
+    Kategori Soal Berdasarkan Mata Pelajaran
+   </h2>
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+    <a class="group bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transition" href="#soal-matematika">
+     <img alt="Ikon buku matematika berwarna biru dengan simbol angka dan rumus" class="w-20 h-20 mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/4f189a83-6ae3-48a9-2706-a4244158a908.jpg" width="100"/>
+     <h3 class="text-xl font-semibold text-blue-700 group-hover:text-yellow-400 transition">
+      Matematika
+     </h3>
+    </a>
+    <a class="group bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transition" href="#soal-bahasa-indonesia">
+     <img alt="Ikon buku bahasa Indonesia berwarna oranye dengan simbol huruf dan pena" class="w-20 h-20 mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/2c18fbfc-978f-4224-dc5f-3ad4d36e419f.jpg" width="100"/>
+     <h3 class="text-xl font-semibold text-orange-500 group-hover:text-yellow-400 transition">
+      Bahasa Indonesia
+     </h3>
+    </a>
+    <a class="group bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transition" href="#soal-ipa">
+     <img alt="Ikon mikroskop dan atom berwarna hijau melambangkan Ilmu Pengetahuan Alam" class="w-20 h-20 mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/8ef027e4-214c-41d9-2544-7fb492ed64c2.jpg" width="100"/>
+     <h3 class="text-xl font-semibold text-green-600 group-hover:text-yellow-400 transition">
+      Ilmu Pengetahuan Alam (IPA)
+     </h3>
+    </a>
+    <a class="group bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transition" href="#soal-ips">
+     <img alt="Ikon globe dan buku berwarna kuning melambangkan Ilmu Pengetahuan Sosial" class="w-20 h-20 mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/c7eb4a10-bfc2-414c-8ad0-e8b2255889fc.jpg" width="100"/>
+     <h3 class="text-xl font-semibold text-yellow-500 group-hover:text-yellow-400 transition">
+      Ilmu Pengetahuan Sosial (IPS)
+     </h3>
+    </a>
+    <a class="group bg-white rounded-xl shadow-md p-6 flex flex-col items-center hover:shadow-xl transition" href="#soal-bahasa-inggris">
+     <img alt="Ikon bendera Inggris dan buku berwarna biru tua melambangkan Bahasa Inggris" class="w-20 h-20 mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/d88ec575-dcdf-428c-c6ea-7f46ead21d18.jpg" width="100"/>
+     <h3 class="text-xl font-semibold text-blue-800 group-hover:text-yellow-400 transition">
+      Bahasa Inggris
+     </h3>
+    </a>
+   </div>
+  </section>
+  <!-- Mode Latihan dan Ujian -->
+  <section class="bg-blue-50 py-16 px-6" id="mode">
+   <div class="max-w-7xl mx-auto">
+    <h2 class="text-3xl font-bold text-center text-blue-700 mb-12">
+     Pilih Mode
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+     < Гермаді class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-xl transition">
+      <img alt="Ilustrasi anak sedang belajar santai dengan buku dan pensil, suasana tenang dan nyaman" class="mb-6 rounded-lg" height="150" src="https://storage.googleapis.com/a1aa/image/99223548-99a1-4ef1-8ffa-ee2188decb8c.jpg" width="150"/>
+      <h3 class="text-2xl font-semibold text-blue-700 mb-4">
+       Mode Latihan
+      </h3>
+      <p class="text-gray-700 mb-6">
+       Kerjakan soal tanpa batas waktu dan lihat jawaban benar secara langsung untuk belajar lebih efektif.
+      </p>
+      <button class="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-semibold px-6 py-3 rounded-lg shadow-md transition" onclick="alert('Mode Latihan akan segera tersedia!')">
+       Mulai Latihan
+      </button>
+     </div>
+     <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-xl transition">
+      <img alt="Ilustrasi anak sedang mengerjakan ujian dengan serius di meja belajar, suasana fokus dan tegang" class="mb-6 rounded-lg" height="150" src="https://storage.googleapis.com/a1aa/image/5f871105-6297-4646-efdc-244eb3b8ab5c.jpg" width="150"/>
+      <h3 class="text-2xl font-semibold text-red-600 mb-4">
+       Mode Ujian
+      </h3>
+      <p class="text-gray-700 mb-6">
+       Kerjakan soal dengan waktu terbatas tanpa petunjuk untuk menguji kemampuanmu secara nyata.
+      </p>
+      <button class="bg-red-500 hover:bg-red-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition" onclick="alert('Mode Ujian akan segera tersedia!')">
+       Mulai Ujian
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contoh Soal Pilihan Ganda -->
+  <section class="max-w-7xl mx-auto px-6 py-16" id="soal-matematika">
+   <h2 class="text-3xl font-bold text-blue-700 mb-10 text-center">
+    Contoh Soal Pilihan Ganda - Matematika
+   </h2>
+   <form class="max-w-3xl mx-auto space-y-10 bg-white p-8 rounded-xl shadow-lg" id="quiz-form">
+    <!-- Soal 1 -->
+    <fieldset class="space-y-4">
+     <legend class="text-lg font-semibold text-gray-800">
+      1. Berapakah hasil dari 7 x 8?
+     </legend>
+     <div class="flex flex-col space-y-2">
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q1" type="radio" value="a"/>
+       <span>
+        54
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q1" type="radio" value="b"/>
+       <span>
+        56
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q1" type="radio" value="c"/>
+       <span>
+        58
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q1" type="radio" value="d"/>
+       <span>
+        64
+       </span>
+      </label>
+     </div>
+    </fieldset>
+    <!-- Soal 2 -->
+    <fieldset class="space-y-4">
+     <legend class="text-lg font-semibold text-gray-800">
+      2. Jika sebuah segitiga memiliki alas 10 cm dan tinggi 6 cm, berapakah luasnya?
+     </legend>
+     <div class="flex flex-col space-y-2">
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q2" type="radio" value="a"/>
+       <span>
+        30 cm²
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q2" type="radio" value="b"/>
+       <span>
+        60 cm²
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q2" type="radio" value="c"/>
+       <span>
+        16 cm²
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q2" type="radio" value="d"/>
+       <span>
+        40 cm²
+       </span>
+      </label>
+     </div>
+    </fieldset>
+    <!-- Soal 3 -->
+    <fieldset class="space-y-4">
+     <legend class="text-lg font-semibold text-gray-800">
+      3. Berapakah hasil dari 100 - 45 + 12?
+     </legend>
+     <div class="flex flex-col space-y-2">
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q3" type="radio" value="a"/>
+       <span>
+        67
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q3" type="radio" value="b"/>
+       <span>
+        57
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q3" type="radio" value="c"/>
+       <span>
+        77
+       </span>
+      </label>
+      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+       <input class="form-radio text-blue-600" name="q3" type="radio" value="d"/>
+       <span>
+        65
+       </span>
+      </label>
+     </div>
+    </fieldset>
+    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg shadow-md transition" type="submit">
+     Submit Jawaban
+    </button>
+    <div class="mt-6 text-center text-lg font-semibold" id="feedback">
+    </div>
+   </form>
+  </section>
+  <!-- Ranking -->
+  <section class="bg-blue-50 py-16 px-6" id="ranking">
+   <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center text-blue-700 mb-12">
+     Ranking Siswa Terbaik
+    </h2>
+    <table class="w-full text-left rounded-lg overflow-hidden shadow-lg bg-white">
+     <thead class="bg-blue-600 text-white">
+      <tr>
+       <th class="py-3 px-6">
+        Posisi
+       </th>
+       <th class="py-3 px-6">
+        Nama Siswa
+       </th>
+       <th class="py-3 px-6">
+        Skor
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr class="border-b hover:bg-blue-50 transition">
+       <td class="py-3 px-6 font-semibold">
+        1
+       </td>
+       <td class="py-3 px-6">
+        Rina Putri
+       </td>
+       <td class="py-3 px-6 font-semibold text-blue-700">
+        95
+       </td>
+      </tr>
+      <tr class="border-b hover:bg-blue-50 transition">
+       <td class="py-3 px-6 font-semibold">
+        2
+       </td>
+       <td class="py-3 px-6">
+        Budi Santoso
+       </td>
+       <td class="py-3 px-6 font-semibold text-blue-700">
+        92
+       </td>
+      </tr>
+      <tr class="border-b hover:bg-blue-50 transition">
+       <td class="py-3 px-6 font-semibold">
+        3
+       </td>
+       <td class="py-3 px-6">
+        Sari Dewi
+       </td>
+       <td class="py-3 px-6 font-semibold text-blue-700">
+        90
+       </td>
+      </tr>
+      <tr class="border-b hover:bg-blue-50 transition">
+       <td class="py-3 px-6 font-semibold">
+        4
+       </td>
+       <td class="py-3 px-6">
+        Andi Wijaya
+       </td>
+       <td class="py-3 px-6 font-semibold text-blue-700">
+        88
+       </td>
+      </tr>
+      <tr class="border-b hover:bg-blue-50 transition">
+       <td class="py-3 px-6 font-semibold">
+        5
+       </td>
+       <td class="py-3 px-6">
+        Dewi Lestari
+       </td>
+       <td class="py-3 px-6 font-semibold text-blue-700">
+        85
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+  </section>
+  <!-- Sertifikat Digital -->
+  <section class="max-w-7xl mx-auto px-6 py-16" id="sertifikat">
+   <h2 class="text-3xl font-bold text-blue-700 mb-12 text-center">
+    Sertifikat Digital
+   </h2>
+   <div class="flex flex-col md:flex-row items-center justify-center gap-12">
+    <div class="max-w-md bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+     <img alt="Ilustrasi sertifikat digital berwarna biru dengan pita dan tulisan 'Sertifikat'" class="mb-6 rounded-lg shadow-md" height="200" src="https://storage.googleapis.com/a1aa/image/fd32d399-a20e-4bb9-ca73-722d59fd7d5d.jpg" width="300"/>
+     <p class="text-center text-gray-700 mb-6">
+      Setelah menyelesaikan ujian, kamu akan mendapatkan sertifikat digital sebagai bukti prestasi.
+     </p>
+     <button class="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-semibold px-6 py-3 rounded-lg shadow-md transition" onclick="alert('Fitur sertifikat digital akan segera tersedia!')">
+      Dapatkan Sertifikat
+     </button>
+    </div>
+    <div class="max-w-md bg-white rounded-xl shadow-lg p-8">
+     <h3 class="text-xl font-semibold text-blue-700 mb-4">
+      Panduan Sertifikat
+     </h3>
+     <ul class="list-disc list-inside space-y-2 text-gray-700">
+      <li>
+       Selesaikan ujian dengan skor minimal 75.
+      </li>
+      <li>
+       Ranking akan diperhitungkan untuk sertifikat khusus.
+      </li>
+      <li>
+       Sertifikat dapat diunduh dan dicetak.
+      </li>
+      <li>
+       Gunakan sertifikat untuk motivasi belajar lebih baik.
+      </li>
+     </ul>
+    </div>
+   </div>
+  </section>
+  <!-- Tentang / Footer -->
+  <footer class="bg-blue-700 text-white py-12 px-6 mt-auto" id="about">
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+    <div class="flex items-center space-x-3">
+     <img alt="Logo buku dan pensil berwarna putih dan biru melambangkan edukasi" class="w-10 h-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/8d77f072-9ee7-4613-2afc-dfe0b64c491e.jpg" width="40"/>
+     <span class="text-xl font-semibold">
+      Ujian Kelas 6
+     </span>
+    </div>
+    <p class="max-w-xl text-center md:text-left text-sm">
+     Website ini dibuat untuk membantu siswa kelas 6 belajar dan mempersiapkan ujian dengan cara yang menyenangkan dan interaktif. Semua materi disusun sesuai kurikulum terbaru.
+    </p>
+    <div class="space-x-6 text-xl">
+     <a aria-label="Facebook" class="hover:text-yellow-400 transition" href="#">
+      <i class="fab fa-facebook-square">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-yellow-400 transition" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-yellow-400 transition" href="#">
+      <i class="fab fa-twitter-square">
+      </i>
+     </a>
+    </div>
+   </div>
+   <div class="mt-8 text-center text-sm text-yellow-300 select-none">
+    © 2024 Ujian Kelas 6. All rights reserved.
+   </div>
+  </footer>
+  <script>
+   // Mobile menu toggle
+    const btnMenu = document.getElementById('btn-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+    btnMenu.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Quiz logic for automatic scoring and feedback
+    const quizForm = document.getElementById('quiz-form');
+    const feedback = document.getElementById('feedback');
+
+    // Correct answers key
+    const answers = {
+      q1: 'b',
+      q2: 'a',
+      q3: 'a',
+    };
+
+    quizForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      let score = 0;
+      let total = Object.keys(answers).length;
+      let unanswered = 0;
+
+      for (const q in answers) {
+        const selected = quizForm.elements[q].value;
+        if (!selected) {
+          unanswered++;
+          continue;
+        }
+        if (selected === answers[q]) {
+          score++;
+        }
+      }
+
+      if (unanswered > 0) {
+        feedback.textContent = `Tolong jawab semua soal terlebih dahulu. Soal yang belum dijawab: ${unanswered}`;
+        feedback.classList.remove('text-green-600');
+        feedback.classList.add('text-red-600');
+        return;
+      }
+
+      const percent = (score / total) * 100;
+      let message = `Skor kamu: ${score} dari ${total} (${percent}%)`;
+
+      if (percent === 100) {
+        message += " 🎉 Selamat! Kamu mendapatkan nilai sempurna!";
+      } else if (percent >= 75) {
+        message += " 👍 Bagus! Kamu sudah menguasai materi.";
+      } else {
+        message += " 😕 Jangan menyerah, coba lagi ya!";
+      }
+
+      feedback.textContent = message;
+      feedback.classList.remove('text-red-600');
+      feedback.classList.add('text-green-600');
+    });
+  </script>
+ </body>
+</html>
