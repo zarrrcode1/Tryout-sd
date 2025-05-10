@@ -139,7 +139,7 @@
      Pilih Mode
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-     < Гермаді class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-xl transition">
+     <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-xl transition">
       <img alt="Ilustrasi anak sedang belajar santai dengan buku dan pensil, suasana tenang dan nyaman" class="mb-6 rounded-lg" height="150" src="https://storage.googleapis.com/a1aa/image/99223548-99a1-4ef1-8ffa-ee2188decb8c.jpg" width="150"/>
       <h3 class="text-2xl font-semibold text-blue-700 mb-4">
        Mode Latihan
@@ -169,111 +169,23 @@
   <!-- Contoh Soal Pilihan Ganda -->
   <section class="max-w-7xl mx-auto px-6 py-16" id="soal-matematika">
    <h2 class="text-3xl font-bold text-blue-700 mb-10 text-center">
-    Contoh Soal Pilihan Ganda - Matematika
+    Soal Pilihan Ganda - Matematika
    </h2>
    <form class="max-w-3xl mx-auto space-y-10 bg-white p-8 rounded-xl shadow-lg" id="quiz-form">
-    <!-- Soal 1 -->
-    <fieldset class="space-y-4">
-     <legend class="text-lg font-semibold text-gray-800">
-      1. Berapakah hasil dari 7 x 8?
-     </legend>
-     <div class="flex flex-col space-y-2">
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q1" type="radio" value="a"/>
-       <span>
-        54
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q1" type="radio" value="b"/>
-       <span>
-        56
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q1" type="radio" value="c"/>
-       <span>
-        58
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q1" type="radio" value="d"/>
-       <span>
-        64
-       </span>
-      </label>
-     </div>
-    </fieldset>
-    <!-- Soal 2 -->
-    <fieldset class="space-y-4">
-     <legend class="text-lg font-semibold text-gray-800">
-      2. Jika sebuah segitiga memiliki alas 10 cm dan tinggi 6 cm, berapakah luasnya?
-     </legend>
-     <div class="flex flex-col space-y-2">
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q2" type="radio" value="a"/>
-       <span>
-        30 cm²
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q2" type="radio" value="b"/>
-       <span>
-        60 cm²
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q2" type="radio" value="c"/>
-       <span>
-        16 cm²
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q2" type="radio" value="d"/>
-       <span>
-        40 cm²
-       </span>
-      </label>
-     </div>
-    </fieldset>
-    <!-- Soal 3 -->
-    <fieldset class="space-y-4">
-     <legend class="text-lg font-semibold text-gray-800">
-      3. Berapakah hasil dari 100 - 45 + 12?
-     </legend>
-     <div class="flex flex-col space-y-2">
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q3" type="radio" value="a"/>
-       <span>
-        67
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q3" type="radio" value="b"/>
-       <span>
-        57
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q3" type="radio" value="c"/>
-       <span>
-        77
-       </span>
-      </label>
-      <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
-       <input class="form-radio text-blue-600" name="q3" type="radio" value="d"/>
-       <span>
-        65
-       </span>
-      </label>
-     </div>
-    </fieldset>
-    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg shadow-md transition" type="submit">
+    <!-- Soal akan diisi secara dinamis oleh JavaScript -->
+   </form>
+   <div class="max-w-3xl mx-auto mt-6">
+    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg shadow-md transition hidden" id="submit-btn" type="button">
      Submit Jawaban
+    </button>
+    <button class="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg shadow-md transition hidden mt-4" id="show-explanation-btn" type="button">
+     Lihat Pembahasan
     </button>
     <div class="mt-6 text-center text-lg font-semibold" id="feedback">
     </div>
-   </form>
+    <div class="mt-6 hidden" id="explanation">
+    </div>
+   </div>
   </section>
   <!-- Ranking -->
   <section class="bg-blue-50 py-16 px-6" id="ranking">
@@ -424,62 +336,119 @@
   </footer>
   <script>
    // Mobile menu toggle
-    const btnMenu = document.getElementById('btn-menu');
-    const mobileMenu = document.getElementById('mobile-menu');
-    btnMenu.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-    });
+   const btnMenu = document.getElementById('btn-menu');
+   const mobileMenu = document.getElementById('mobile-menu');
+   btnMenu.addEventListener('click', () => {
+     mobileMenu.classList.toggle('hidden');
+   });
 
-    // Quiz logic for automatic scoring and feedback
-    const quizForm = document.getElementById('quiz-form');
-    const feedback = document.getElementById('feedback');
+   // Quiz logic
+   const quizForm = document.getElementById('quiz-form');
+   const feedback = document.getElementById('feedback');
+   const submitBtn = document.getElementById('submit-btn');
+   const showExplanationBtn = document.getElementById('show-explanation-btn');
+   const explanationDiv = document.getElementById('explanation');
 
-    // Correct answers key
-    const answers = {
-      q1: 'b',
-      q2: 'a',
-      q3: 'a',
-    };
+   // Fetch questions from API
+   async function loadQuestions() {
+     try {
+       const response = await fetch('/api/matematika');
+       const data = await response.json();
+       renderQuestions(data.soal);
+       submitBtn.classList.remove('hidden');
+     } catch (error) {
+       feedback.textContent = 'Gagal memuat soal. Silakan coba lagi.';
+       feedback.classList.add('text-red-600');
+     }
+   }
 
-    quizForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      let score = 0;
-      let total = Object.keys(answers).length;
-      let unanswered = 0;
+   // Render questions dynamically
+   function renderQuestions(questions) {
+     quizForm.innerHTML = '';
+     questions.forEach(q => {
+       const fieldset = document.createElement('fieldset');
+       fieldset.className = 'space-y-4';
+       fieldset.innerHTML = `
+         <legend class="text-lg font-semibold text-gray-800">
+           ${q.nomor}. ${q.pertanyaan}
+         </legend>
+         <div class="flex flex-col space-y-2">
+           ${Object.entries(q.pilihan).map(([key, value]) => `
+             <label class="flex items-center space-x-3 cursor-pointer hover:text-blue-600">
+               <input class="form-radio text-blue-600" name="q${q.nomor}" type="radio" value="${key}"/>
+               <span>${key}. ${value}</span>
+             </label>
+           `).join('')}
+         </div>
+       `;
+       quizForm.appendChild(fieldset);
+     });
+   }
 
-      for (const q in answers) {
-        const selected = quizForm.elements[q].value;
-        if (!selected) {
-          unanswered++;
-          continue;
-        }
-        if (selected === answers[q]) {
-          score++;
-        }
-      }
+   // Handle form submission
+   submitBtn.addEventListener('click', async () => {
+     const response = await fetch('/api/matematika');
+     const data = await response.json();
+     const questions = data.soal;
+     let score = 0;
+     let total = questions.length;
+     let unanswered = 0;
+     const userAnswers = {};
 
-      if (unanswered > 0) {
-        feedback.textContent = `Tolong jawab semua soal terlebih dahulu. Soal yang belum dijawab: ${unanswered}`;
-        feedback.classList.remove('text-green-600');
-        feedback.classList.add('text-red-600');
-        return;
-      }
+     questions.forEach(q => {
+       const selected = quizForm.elements[`q${q.nomor}`]?.value;
+       userAnswers[q.nomor] = selected;
+       if (!selected) {
+         unanswered++;
+       } else if (selected === q.jawaban) {
+         score++;
+       }
+     });
 
-      const percent = (score / total) * 100;
-      let message = `Skor kamu: ${score} dari ${total} (${percent}%)`;
+     if (unanswered > 0) {
+       feedback.textContent = `Tolong jawab semua soal terlebih dahulu. Soal yang belum dijawab: ${unanswered}`;
+       feedback.classList.remove('text-green-600');
+       feedback.classList.add('text-red-600');
+       return;
+     }
 
-      if (percent === 100) {
-        message += " 🎉 Selamat! Kamu mendapatkan nilai sempurna!";
-      } else if (percent >= 75) {
-        message += " 👍 Bagus! Kamu sudah menguasai materi.";
-      } else {
-        message += " 😕 Jangan menyerah, coba lagi ya!";
-      }
+     const percent = (score / total) * 100;
+     let message = `Skor kamu: ${score} dari ${total} (${percent.toFixed(2)}%)`;
 
-      feedback.textContent = message;
-      feedback.classList.remove('text-red-600');
-      feedback.classList.add('text-green-600');
-    });
+     if (percent === 100) {
+       message += " 🎉 Selamat! Kamu mendapatkan nilai sempurna!";
+     } else if (percent >= 75) {
+       message += " 👍 Bagus! Kamu sudah menguasai materi.";
+     } else {
+       message += " 😕 Jangan menyerah, coba lagi ya!";
+     }
+
+     feedback.textContent = message;
+     feedback.classList.remove('text-red-600');
+     feedback.classList.add('text-green-600');
+     showExplanationBtn.classList.remove('hidden');
+
+     // Prepare explanation
+     showExplanationBtn.onclick = () => {
+       explanationDiv.innerHTML = `
+         <h3 class="text-xl font-semibold text-blue-700 mb-4">Pembahasan</h3>
+         ${questions.map(q => `
+           <div class="mb-4">
+             <p class="font-semibold">Soal ${q.nomor}: ${q.pertanyaan}</p>
+             <p>Jawaban Benar: ${q.jawaban}. ${q.pilihan[q.jawaban]}</p>
+             <p>Pembahasan: ${q.pembahasan}</p>
+             <p class="text-sm ${userAnswers[q.nomor] === q.jawaban ? 'text-green-600' : 'text-red-600'}">
+               Jawaban Kamu: ${userAnswers[q.nomor] ? `${userAnswers[q.nomor]}. ${q.pilihan[userAnswers[q.nomor]]}` : 'Tidak dijawab'}
+             </p>
+           </div>
+         `).join('')}
+       `;
+       explanationDiv.classList.remove('hidden');
+     };
+   });
+
+   // Load questions on page load
+   loadQuestions();
   </script>
  </body>
 </html>
